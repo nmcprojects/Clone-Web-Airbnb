@@ -2,8 +2,8 @@
 ## `HTML` `CSS` `JAVASCRIPT`
 ### snapshots
 ![image](snapshot/full-page.png)
-![image](snapshot/top.png)
-![image](snapshot/header-click.png)
+![image](snapshot/top.PNG)
+![image](snapshot/header-click.PNG)
 
 ### link here: [https://nmcprojects.github.io/static-web/digital-wallet-dashboard](https://nmcprojects.github.io/static-web/digital-wallet-dashboard)
 ### Discription:
