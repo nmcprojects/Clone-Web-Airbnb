@@ -1,0 +1,184 @@
+
+/* Variable */
+:root {
+    --padding-wide-main: 80px; /* PC */
+    --primary-color: rgb(255, 56, 92);
+    --white-color: #fff;
+    --header-height: 80px;
+    --header-height-big: 242px;
+}
+
+/* Common */
+.disappear {
+    display: none !important;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.margin-top-common {
+    margin-top: 16px;
+}
+
+
+/* icon delete */
+.delete-icon-btn {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    background-color: #ebebeb;
+}
+
+.delete-icon-btn:hover {
+    cursor: pointer;
+    background-color: #dddddd;
+}
+
+.icon-delete {
+    position: absolute ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50%, -50%) ;
+}
+
+
+/* Search button */
+.search-btn {
+    display: inline-block;
+    height: 48px;
+    padding: 16px;
+    margin: 7px 7px 7px 0;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+}
+
+
+.search-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+}
+
+.search-btn__icon {
+    font-size: 16px;
+    color: #fff;
+}
+
+.search-btn__text {
+    color: #fff;
+    font-size: 16px;
+    padding: 0 6px;
+}
+
+
+/* Calendar Month */
+.calendar-month {
+    width: 100%;
+    display: block;
+    width: 390px;
+    height: 327px;
+    padding: 0 27px;
+}
+
+.calendar-month__name {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 22px 0;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.calendar-month__days {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.calendar-month__days-of-the-week-days,
+.calendar-month__days-of-the-week-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+    
+}
+
+.calendar-month__days-of-the-week-day,
+.calendar-month__days-of-the-week-title-item {
+    width: calc(100% / 7);
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.calendar-month__days-of-the-week-title {
+    margin-bottom: 4px;
+}
+
+.calendar-month__days-of-the-week-title-item {
+    font-size: 12px;
+    color: #717171;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.calendar-month__days-of-the-week-day {
+    font-size: 14px;
+    color: #222;
+    line-height: 47px;
+    font-weight: 600;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.calendar-month__days-of-the-week-day.calendar-month__days-of-the-week-day--active:hover {
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+.calendar-month__days-of-the-week-day.calendar-month__days-of-the-week-day--active.calendar-month__days-of-the-week-day--disabled {
+    color: #d7d7d7;
+}
+.calendar-month__days-of-the-week-day.calendar-month__days-of-the-week-day--active.calendar-month__days-of-the-week-day--disabled:hover {
+    cursor: default;
+    border: none;
+}
+
+.calendar-month-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #363636;
+    width: 32px;
+    height: 32px;
+}
+
+.calendar-month-btn:hover {
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.calendar-month-btn--disappear {
+    display: none;
+}
+
+.calendar-month-btn--left {
+    top: 50%;
+    left: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.calendar-month-btn--right {
+    top: 50%;
+    right: 0;
+    transform: translateX(50%) translateY(-50%);
+}

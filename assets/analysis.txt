@@ -1,0 +1,29 @@
+
+
+                ==> Airbnb <==
+Mục đích - clone: < PHẢI GIỐNG LÊN ĐẾN TRÊN 90%>
+    + A: Clone phần trang trủ của Airbnb <index.html>.
+    + B: Clone phần Trở thành chủ nhà - cho thuê nhà <homes.html>.
+    + C: Clone phần tổ chức trải nghiệm <experience_organization.html>
+    + D: Clone trải nghiệm trực tuyến <experiences_online.html>.
+
+=== 1) Phân chung của trang Web (common) 
+
+        + header.
+        + footer.
+        + login - resistration.
+        + help (Trợ giúp).
+
+=== 2: Phần riêng của từng trang web
+
+A) Clone phần trang trủ của Airbnb <index.html>.
+
+    + info-covid-19.
+    + header (common).
+    + content:
+        _ image: title, btn.
+        _ places.
+        _ type-home.
+        _ experiences the world.
+        _ join the host.
+    + footer.

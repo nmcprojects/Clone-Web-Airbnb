@@ -1,0 +1,122 @@
+
+
+/* Background-image */
+.background-image-main {
+    width: 100%;
+    height: 614px;
+    position: relative;
+}
+
+.background-image-main-wrap {
+
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0)), url(../img/background-image/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.background-image-main__info {
+    position: absolute;
+    top: 50%;
+    left: var(--padding-wide-main);
+}
+
+.background-image-main__info-title {
+    color: #fff;
+    font-size: 52px;
+    letter-spacing: -2px;
+}
+
+.background-image-main__info-btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.background-image-main__info-btn:hover {
+    cursor: pointer;
+    background-color: #F7F7F7;
+}
+
+.background-image-main__info-btn-link {
+    color: #222;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (min-width: 1112px) and (max-width: 1257px) {
+    /* Background image */
+    .background-image-main {
+        height: auto;
+    }
+    .background-image-main-wrap { 
+        background-size: cover;
+        padding-top: 50%;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1111px) {
+    /* Background image */
+    .background-image-main {
+        height: 550px;
+    }
+    .background-image-main-wrap {
+        background-size: cover;
+        height: 100%;
+    }
+}
+
+@media (min-width: 746px) and (max-width: 950px) {
+    /* Background image */
+    .background-image-main {
+        height: auto;
+    }
+    .background-image-main-wrap {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0)), url(../img/background-image/background-image-tablet.png);
+        background-size: cover ;
+        padding-top: 80%;
+    }
+
+    .background-image-main__info {
+        top: 60%;
+    }
+
+    .background-image-main__info-title {
+        font-size: 42px;
+        letter-spacing: -1px;
+    }
+}
+
+
+/* Mobile */ 
+@media (max-width: 746px) {
+
+    /* Background image */
+    .background-image-main {
+        height: auto;
+    }
+
+    .background-image-main-wrap {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0)), url(../img/background-image/background-image-mobile.png);
+        padding-top: 125%;
+    }
+
+    .background-image-main__info {
+        top: 96px;
+        left: 24px;
+    }
+
+    
+    .background-image-main__info-title {
+        font-size: 32px;
+        letter-spacing: -1px;
+    }
+}

@@ -1,0 +1,378 @@
+/* ===========> reset css <============ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    overflow-x: hidden;
+    
+}
+
+/* Font face */
+
+
+/* ===========> Main <============ */
+
+/* Infomation covid 19 */
+.info-covid-19 {
+    display: block;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #000;
+}
+
+.info-covid-19__link {
+    color: #DDD;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    outline: none;
+}
+
+.info-covid-19__link:hover {
+    color: #DDDDDDCC;
+}
+
+
+/* CONTENT  */
+.content {
+    padding: 0 var(--padding-wide-main);
+}
+
+/* Popular Places */
+.popular-places {
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+
+.popular-place {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.popular-place__img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+}
+
+.popular-place__info {
+    color: #222;
+    font-size: 16px;
+    line-height:20px;
+    padding-left: 16px;
+    overflow-x: hidden;
+}
+
+.popular-place__info-name {
+    font-weight: 600;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+.popular-place__info-time {
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap ;
+}
+
+/* Type places */
+.type-places {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.type-places__title h1 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 16px;
+}
+
+.type-places__main {
+    margin-top: 16px;
+}
+
+.type-place {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.type-place__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.type-place__name {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Experience the world */
+.experience-the-world {
+    color: #fff;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.experience-the-world:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: calc(var(--padding-wide-main) - var(--padding-wide-main) * 2);
+    right: calc(var(--padding-wide-main) - var(--padding-wide-main) * 2); 
+    bottom: 0;
+    background-color: #000;
+    z-index: -1;
+}
+
+.experience-the-world__title {
+    padding-bottom: 8px;
+}
+
+.experience-the-world__title-main {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.experience-the-world__title-sub {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.experience-the-world__main {
+    margin-top: 16px;
+}
+
+.experience-the-world__main-item {
+    display: block;
+    text-decoration: none;
+}
+
+.experience-the-world__main-item__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.experience-the-world__main-item__info {
+    color: #fff;
+    padding-top: 8px;
+}
+
+.experience-the-world__main-item__info-name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.experience-the-world__main-item__info-sub {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 4px;
+}
+
+/* Join the system */
+.join-the-system {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.join-the-system__title h1 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 16px;
+}
+
+.join-the-system__main {
+    padding-top: 12px;
+}
+
+.join-the-system__main-item {
+    text-decoration: none;
+    display: block;
+}
+
+.join-the-system__main-item-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.join-the-system__main-info {
+    display: inline-block;
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-top: 6px;
+}
+
+/* Footer */
+#footer {
+    background-color: #F7F7F7;
+    border-top: 1px solid #DDD;
+
+}
+
+.footer {
+    padding: 0 var(--padding-wide-main);
+    color: #222;
+}
+
+/* footer-link */
+.footer-link {
+    padding: 48px 0;
+    border-bottom: 1px solid #DDD;
+}
+
+.footer-link__title {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+.footer-link__list {
+    list-style: none;
+    /* margin-top: 4px; */
+}
+
+.footer-link__list-item {
+
+}
+
+.footer-link__list-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-link__list-item-link{
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+/* footer-creator */
+.footer-creator {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.footer-creator__info {
+    display: flex;
+}
+
+.footer-creator__info-1-main h3 {
+    display: inline-block;
+    color: #222;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.footer-creator__info-1-request ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-creator__info-1-request a {
+    color: #222;
+    text-decoration: none;
+}
+
+.footer-creator__info-1-request li {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.footer-creator__info-1-request li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #484848;
+}
+
+.footer-creator__info-1-request span {
+    display: inline-block;
+    font-size:14px;
+    width: 19px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.footer-creator__info-2-setting {
+    display: flex;
+    margin-right: 16px;
+}
+
+.footer-creator__info-2-setting-item:hover {
+    cursor: pointer;
+    color: #484848;
+}
+
+.footer-creator__info-2-setting-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-creator__info-2-setting-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height:18px;
+    padding-left: 8px;
+    padding-right: 32px;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer-creator__info-2-social a {
+    display: inline-block;
+    color: #222;
+}
+
+.footer-creator__info-2-social i {
+    font-size: 18px;
+}
+
+.footer-creator__info-2-social a + a {
+    margin-left: 28px;
+}
+
+.footer-creator__info-2-social a:hover {
+    cursor: pointer;
+    color: #484848;
+}

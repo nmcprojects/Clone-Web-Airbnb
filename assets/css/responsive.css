@@ -1,0 +1,276 @@
+
+/* RESPONSIVE */
+
+/* Mobile && Tablet */
+@media  (max-width: 1112px) {
+
+    /* Popular Places */
+    .popular-places {
+        height: 240px;
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+
+    .popular-place--disappear {
+        display: none;
+    }
+
+    
+    /* Type places */
+    .type-places__main {
+        overflow-x: scroll;
+    }
+
+    .type-places__main::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .type-places__main-row--nowrap {
+        flex-wrap: nowrap;
+    }
+
+
+    /* Footer */
+    .footer-link {
+        padding: 24px 0;
+        border-bottom: 1px solid #DDD;
+    }
+
+    .footer-link__item  {
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+
+    .footer-link__item  + .footer-link__item {
+        border-top: 1px solid #DDD;
+    }
+
+    .footer-creator {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-creator__info-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-creator__info-1-request {
+        margin-top: 2px;
+    }
+
+    .footer-creator__info-2 {
+        margin-bottom: 16px;
+    }
+}
+
+/* Tablet */
+@media  (min-width: 740px) and (max-width: 1112px) {
+     /* Variable Global */
+     :root {
+        --padding-wide-main: 24px;
+    }
+
+    /* Popular Places */
+    .popular-place__img {
+        width: 72px;
+        height: 72px;
+    }
+
+    /* Type places */
+    .type-places__title h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .type-places {
+        position: relative;
+    }
+
+    .type-places__btn {
+        position: absolute;
+        top: 60%;
+        width: 32px;
+        height: 32px;
+        /* box-sizing: content-box; */
+        padding: 1px 6px;
+        border-radius: 50%;
+        background-color: #fff;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+       
+    }
+
+    .type-places__btn:hover {
+        cursor: pointer;
+    }
+
+
+
+    .type-places__btn span {
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 300;
+        text-align: center;
+        color: #555;
+    }
+
+    .type-places__btn--left {
+        left: 0;
+        transform: translateX(-60%) translateY(-50%);
+    }
+
+    .type-places__btn--right {
+        right: 0;
+        transform: translateX(60%) translateY(-50%);
+    }
+
+    .type-place:last-child {
+        margin-right: -8px;
+    }
+    
+
+    /* Experience the world */
+    .experience-the-world__title-main {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .experience-the-world__main {
+        margin-top: 12px;
+    }
+
+    /* Join the system */
+    .join-the-system__title h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+    /* Footer */
+    
+}
+
+/* Mobile */
+@media  (max-width: 739px) {
+     /* Variable Global */
+     :root {
+        --padding-wide-main: 24px;
+    }
+
+     /* infomation covit 19 */
+     .info-covid-19 {
+        padding: 16px 24px;
+        background-color: #F7F7F7;
+    }
+        
+    .info-covid-19__link {
+        color: #222;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .info-covid-19__link:hover {
+        color: #222;
+    }
+
+    /* Popular Places */
+    .popular-places {
+        overflow-x: scroll;
+    }
+
+    .popular-places::-webkit-scrollbar {
+        display: none;
+    }
+
+    .popular-places-mobile {
+        width: 900px;
+    }
+    
+
+    /* Type places */
+    .type-places__main-mobile {
+        width: 1112px;
+    }
+
+    .type-places__title h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .type-places__main {
+        margin-top: 4px;
+    }
+
+    /* Experience the world */
+    .experience-the-world {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .experience-the-world__main {
+        overflow-x: scroll;
+    }
+
+    .experience-the-world__main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .experience-the-world__main-mobile {
+        width: 832px;
+    }
+
+    .experience-the-world__title-main {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    .experience-the-world__title-sub {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+    }
+
+    .experience-the-world__main {
+        margin-top: 4px;
+    }
+
+    /* Join the system */
+    .join-the-system__main {
+        overflow-x: scroll;
+    }
+
+    .join-the-system__main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .join-the-system__main-mobile {
+        width: 832px;
+    }
+
+    .join-the-system__title h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .join-the-system__main {
+        padding-top: 4px;
+    }
+
+    /* Footer */
+    .footer-creator {
+        align-items: flex-start;
+    }
+
+    .footer-creator__info-1 {
+        align-items: flex-start;
+    }
+
+    .footer-creator__info-1-request span:first-child {
+        display: none;
+    }
+
+    .footer-creator__info-2-social {
+        display: none;
+    }
+}
